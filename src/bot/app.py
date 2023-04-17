@@ -8,7 +8,7 @@ import xlsxwriter
 
 app = Flask(__name__)
 
-@app.route('/download/<int:book_id>')
+@app.route('путь')
 def download_stats(book_id):
     # Получаем данные из базы данных
     db = DatabaseConnector()
