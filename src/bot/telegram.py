@@ -3,7 +3,7 @@ import datetime
 from telebot import types
 from database.dbapi import DatabaseConnector
 import app
-bot = telebot.TeleBot("6034385955:AAFWKuRYQqe7ZMKv0HhwxOcuXkeVAzDVQyI")
+bot = telebot.TeleBot("токен")
 
 
 
